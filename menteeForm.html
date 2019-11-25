@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Mentee Registration</title>
+	<link rel="stylesheet" type="text/css" src="Style.css">
+	<meta charset="utf-8">
+	<meta name = "author" content = "Gabie and The Boys">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+</head>
+<body>
+
+	<!--header-->
+	<header id="banner">
+		<div class="brand">
+			<p>Mentorship Programme</p>
+		</div>
+	</header>
+
+	<form action="/" method="GET">
+		<div id="mentee" class="menteeform">
+			<div>
+				<label>Mentee Application Form</label>
+
+			</div>
+			<div>
+				<label for="id">ID Number</label>
+				<input type="number" name="id" id="id" required min="600000000" >
+			</div>
+			<div>
+				<label for="title">Title</label>
+				<select name="title" id="title">
+					<option value="Ms.">Ms.</option>
+					<option value="Mr.">Mr.</option>
+				</select>
+
+				<label for="username">Name</label>
+				<input type="text" name="username" id="username" reqired>
+			</div>
+			<div>
+				<label for="age">Age</label>
+				<input type="number" name="age" id="age"required min="18" max="60">
+				<label for dob>Birthday</label>
+				<input type="date" name="Birthday" id="dob">
+			</div>
+
+			<div class="contact info"> <!--contact info-->
+				<label>PhoneNumeber</label>
+				<input type="tel" name="phonenumber">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" reqired>
+				<div><!--Address-->
+					<label>PermanentAddress</label>
+					<input type="text" name="paddress">
+					<label>MailingAddress</label>
+					<input type="text" name="maddress">
+				</div>
+			</div>
+			<div>
+				<label for="major">Major</label>
+				<input type="text" name="major" id="major" requied>
+
+			</div>
+			<div>
+				<label for="faculty"></label>
+				<select id="facutly" name="facutly" required>
+					<option value="Science and Technology">Sci Tech</option>
+					<option value="Social Sciences">Social Sciences</option>
+					<option value="Law">Law</option>
+					<option value="Humanities">Humanities</option>
+					<option value="Medical Sciences">Med Sci</option>
+				</select>
+			</div>
+			<div>
+				<label for="saddress">Semester Address</label>
+				<input type="text" name="saddress" id="saddress" required>
+			</div>
+			<div>
+				<label for="cInterest"> Career Interests</label>
+				<input type="text" name="cInterest" id="cInterest" required>
+			</div>
+			<div>
+				<label for="plans">Immediante Plans</label>
+				<div><textarea id="plans" name="plans"></textarea></div>
+			</div>
+			<div>
+				<label for="programme">Programme:</label>
+				<div>
+					<label for="Dinning">Dinning</label>
+					<input type="checkbox" name="Dinning" value="Dinning" id="Dinning" required>
+					<label for="PD">PD</label>
+					<input type="checkbox" name="PD" value="Personal Development" id="PD">
+					<label for="PS">Public Speaking</label>
+					<input type="checkbox" name="PS" id="PS">
+					<label for="BE">Business Etiquette</label>
+					<input type="checkbox" name="BE" id="BE">
+					<label for="TM">Time Management</label>
+					<input type="checkbox" name="TM" id="TM">
+					<label for="CMP">Conducting meeting and Presentations</label>
+					<input type="checkbox" name="CMP" id="CMP">
+					<label for="BPPW">Buget Planning and Proposal Writting</label>
+					<input type="checkbox" name="BPPW" id="BPPW">
+					<label for="WWS">World of Work Seminars</label>
+					<input type="checkbox" name="WWS" id="WWS">
+				</div>
+			</div>
+		
+
+		</div>
+	</form>
+		
+</body>		
+</html>

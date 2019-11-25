@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mentor Registration</title>
+	<link rel="stylesheet" type="text/css" src="Style.css">
+	<meta charset="utf-8">
+	<meta name = "author" content = "Gabie and The Boys">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+</head>
+<body>
+
+	<!--header-->
+	<header id="banner">
+		<div class="brand">
+			<p>Mentorship Programme</p>
+		</div>
+	</header>
+		
+	<form>
+		<div id="mentor" class="mentorform">
+			<div>
+				<label>Mentor Application Form</label>
+
+			</div>
+			<div>
+				<label for="title">Title</label>
+				<select name="title" id="title">
+					<option value="Ms.">Ms.</option>
+					<option value="Mr.">Mr.</option>
+					<option value="Mrs.">Mrs.</option>
+					<option value="Dr.">Dr.</option>
+				</select>
+
+				<label for="username">Name</label>
+				<input type="text" name="username" id="username" reqired>
+			</div>
+			<div>
+				<label for="age">Age</label>
+				<input type="number" name="age" id="age"required>
+				<label for dob>Birthday</label>
+				<input type="date" name="Birthday" id="dob">
+			</div>
+
+			<div class="contact info"> <!--contact info-->
+				<label>PhoneNumeber</label>
+				<input type="tel" name="phonenumber">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" reqired>
+				<div><!--Address-->
+					<label>PermanentAddress</label>
+					<input type="text" name="paddress">
+					<label>MailingAddress</label>
+					<input type="text" name="maddress">
+				</div>
+			</div>
+			<div>
+				<label for="name">Position</label>
+				<input type="text" name="positon" id="position" required>
+			</div>
+			<div>
+				<label for="uwiGrad">UWI Graduate</label>
+				<select name="uwiGrad" id="uwiGrad">
+					<option value="Yes">Yes</option>
+					<option value="No">No</option>
+				</select>
+			</div>
+
+			<div>
+				Education
+				<div>
+					<label for="certificate">Certificate</label>
+					<input type="radio" name="education" id="certificate" value="Certificate">
+				
+					<label for="bachelors">Bachelors</label>
+					<input type="radio" name="education" id="bachelors" value="Bachelors">
+				
+					<label for="masters">Masters</label>
+					<input type="radio" name="education" id="masters" value="Masters">
+				
+					<label for="mphil">MPhil</label>
+					<input type="radio" name="education" id="mphil" value="MPhil">
+				
+					<label for="phd">PHD</label>
+					<input type="radio" name="education" id="phd" value="PHD">
+				</div>
+			</div>
+			<div>
+				<label for="specialty">Specialty</label>
+				<input type="text" name="specialty" id="specialty" required>
+			</div>
+			<div>
+				<label for="experience">Years of experience</label>
+				<input type="number" name="experience" id="experience" min="1">
+			</div>
+			<div>
+				<label for="resposibilities">Responsibilities in Organization</label>
+				<div><textarea id="resposibilities" name="resposibilities"></textarea></div>
+			</div>
+			<div>
+				<label for="disability">Disability</label>
+				<select id="disability" name="disability">
+					<option value="Yes">Yes</option>
+					<option value="No">No</option>
+				</select>
+			</div>
+
+
+			<button type="submit"> Submit</button>
+
+
+			
+		</div>
+	</form>
+
+</body>
+</html>
