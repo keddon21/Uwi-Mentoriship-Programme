@@ -16,7 +16,7 @@
 		</div>
 	</header>
 
-	<form action="/" method="GET">
+	<form action="menteePush.php" method="POST">
 		<div id="mentee" class="menteeform">
 			<div>
 				<label>Mentee Application Form</label>
@@ -39,21 +39,21 @@
 			<div>
 				<label for="age">Age</label>
 				<input type="number" name="age" id="age"required min="18" max="60">
-				<label for dob>Birthday</label>
+				<label for ="dob">Birthday</label>
 				<input type="date" name="Birthday" id="dob">
 			</div>
 
 			<div class="contact info"> <!--contact info-->
-				<label>PhoneNumeber</label>
-				<input type="tel" name="phonenumber">
+				<label for="number">PhoneNumeber</label>
+				<input type="tel" name="phonenumber" id="number">
 				<label for="email">Email</label>
 				<input type="email" name="email" id="email" reqired>
-				<div><!--Address-->
+				<!--<div>
 					<label>PermanentAddress</label>
 					<input type="text" name="paddress">
 					<label>MailingAddress</label>
 					<input type="text" name="maddress">
-				</div>
+				</div>-->
 			</div>
 			<div>
 				<label for="major">Major</label>
@@ -102,6 +102,9 @@
 					<label for="WWS">World of Work Seminars</label>
 					<input type="checkbox" name="WWS" id="WWS">
 				</div>
+			</div>
+			<div id = "SubSpace">
+				<input class = "SubBtn" type = "submit"/>
 			</div>
 		
 
